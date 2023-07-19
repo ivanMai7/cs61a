@@ -162,7 +162,6 @@ def count_coins(total):
             not_taking = func(sum,next_largest_coin(coin))
         return taking + not_taking
     return func(total,1)
-        
 from operator import sub, mul
 
 def make_anonymous_factorial():
